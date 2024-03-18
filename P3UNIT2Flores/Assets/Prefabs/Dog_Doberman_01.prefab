@@ -4521,6 +4521,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4436117148999103875}
   - component: {fileID: 6753824146816316759}
+  - component: {fileID: 6844237475341007179}
   m_Layer: 0
   m_Name: SM_Doberman_01
   m_TagString: Untagged
@@ -4639,6 +4640,27 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.000000007450581, y: -0.027196333, z: 0.09501116}
     m_Extent: {x: 0.039278634, y: 0.106182754, z: 0.13037159}
   m_DirtyAABB: 0
+--- !u!65 &6844237475341007179
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6320060778351326658}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.07855727, y: 0.21236552, z: 0.26074317}
+  m_Center: {x: -0.000000007450581, y: 0.10618274, z: 0.0031207055}
 --- !u!1 &6331611692261280134
 GameObject:
   m_ObjectHideFlags: 0
@@ -5777,6 +5799,9 @@ GameObject:
   - component: {fileID: 2489293353536180945}
   - component: {fileID: 5391673187341524863}
   - component: {fileID: 6133648933832574458}
+  - component: {fileID: 167592818147242944}
+  - component: {fileID: 97776284067765782}
+  - component: {fileID: 862984703964730358}
   m_Layer: 0
   m_Name: Dog_Doberman_01
   m_TagString: Untagged
@@ -5870,6 +5895,51 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 8
+--- !u!114 &167592818147242944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8552470628824853539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b41bf7f47bfd404459c4ba0e7d26fa49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &97776284067765782
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8552470628824853539}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.07763811, y: 0.21013217, z: 0.26329648}
+  m_Center: {x: 0.00067796314, y: 0.1076549, z: 0.03453677}
+--- !u!114 &862984703964730358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8552470628824853539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ec4fd4ad832e874cb9255fbadb89045, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8826776311645680002
 GameObject:
   m_ObjectHideFlags: 0
